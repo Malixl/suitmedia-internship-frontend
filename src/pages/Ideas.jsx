@@ -7,7 +7,7 @@ const Ideas = () => {
   return (
     <div>
       <Banner
-        imageUrl="/public/header/image3.png"
+        imageUrl="banner.png"
         title="Ideas"
         subtitle="Where all our great things begin"
       />

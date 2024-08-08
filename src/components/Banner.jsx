@@ -16,7 +16,7 @@ const Banner = ({ imageUrl, title, subtitle }) => {
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
         style={{
           backgroundImage: `url(${imageUrl})`,
-          clipPath: "polygon(0 0, 100% 0, 100% 70%, 0 100%)", // Membuat area bawah miring
+          clipPath: "polygon(0 0, 100% 0, 100% 70%, 0 100%)",
         }}
       />
       {/* Text Overlay */}

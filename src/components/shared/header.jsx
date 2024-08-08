@@ -30,11 +30,7 @@ const Header = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <NavLink to="/" className="flex items-center">
-            <img
-              src="/public/logo/logo-sm.png"
-              alt="Suitmedia"
-              className="h-16"
-            />
+            <img src="logo-sm.png" alt="Suitmedia" className="h-16" />
           </NavLink>
           <div className="hidden sm:flex sm:space-x-8 text-white">
             {["Work", "About", "Services", "Ideas", "Careers", "Contact"].map(
